@@ -1,0 +1,11 @@
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "Full-stack Project",
+  "skills": [
+    {"name": "Python", "expertise_level": 7},
+    {"name": "JavaScript", "expertise_level": 8},
+    {"name": "React", "expertise_level": 6}
+  ]
+}
